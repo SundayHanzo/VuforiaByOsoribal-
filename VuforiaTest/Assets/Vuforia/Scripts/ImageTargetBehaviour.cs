@@ -7,6 +7,7 @@ Confidential and Proprietary - Protected under copyright and other laws.
 using System.Collections.Generic;
 using UnityEngine;
 
+
 namespace Vuforia
 {
     /// <summary>
@@ -15,5 +16,11 @@ namespace Vuforia
     /// </summary>
     public class ImageTargetBehaviour : ImageTargetAbstractBehaviour
     {
+        void Start()
+        {
+        }
+        void Update()
+        {
+        }
     }
 }
